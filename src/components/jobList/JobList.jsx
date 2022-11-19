@@ -57,6 +57,8 @@ const JobList = ({bgImage}) => {
             <h5>Foolwing are the instructions for getting rewrad:</h5>
             <p>You have to pay 50$ to work for any bounty.</p>
             <p>This amount will get locked until you solve the bug. </p>
+            <p>Once you are done submit your request for review.</p>
+            <p>If all test cases pass , you will recieve your award in solana wallet.</p>
 
         </div>
     </div>
