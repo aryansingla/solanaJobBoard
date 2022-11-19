@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import BountyImg from "../assets/images/Bounty_logo.png";
 function Navbar() {
   return (
-    <div className="flex justify-between h-14 pt-3 pl-2 pr-2 font-semibold text-white bg-[#AF69EE]">
+    <div className="flex justify-between h-14 pt-3 pl-2 pr-2 font-semibold text-white bg-[#E0B0FF]">
       <div className="">
         <Link>
           <img
@@ -15,7 +15,7 @@ function Navbar() {
       </div>
       <div className="mid">
         <ul className="flex">
-          <Link>
+          <Link to="/jobs">
             <li className="px-10 hover:text-black">Home</li>
           </Link>
           <Link>
